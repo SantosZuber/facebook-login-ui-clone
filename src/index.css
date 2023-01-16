@@ -238,6 +238,7 @@ body {
 }
 .App-footer-div-languages a {
   text-decoration: none;
+  color: #8a8d91;
 }
 .App-footer-div-languages a:visited {
   color: #8a8d91;
@@ -258,6 +259,7 @@ body {
 }
 .App-footer-div-links a {
   text-decoration: none;
+  color: #8a8d91;
 }
 .App-footer-div-links a:visited {
   color: #8a8d91;
