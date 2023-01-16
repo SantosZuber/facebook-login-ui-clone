@@ -234,6 +234,7 @@ body {
   width: 100%;
   align-items: center;
   gap: 10px;
+  color: #8a8d91;
 }
 .App-footer-div-languages a {
   text-decoration: none;
@@ -253,6 +254,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
+  color: #8a8d91;
 }
 .App-footer-div-links a {
   text-decoration: none;
