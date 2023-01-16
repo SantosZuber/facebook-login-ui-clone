@@ -189,6 +189,7 @@ body {
 
 .formContainer-bottomText-a {
   text-decoration: none;
+  color: #1c1e21;
 }
 .formContainer-bottomText-a:hover {
   text-decoration: underline;
