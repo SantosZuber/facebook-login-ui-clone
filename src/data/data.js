@@ -10,6 +10,7 @@ export const languages = [
   "हिन्दी",
   "日本語",
 ];
+
 export const links = [
   "Sign Up",
   "Log In",
