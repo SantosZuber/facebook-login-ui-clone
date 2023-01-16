@@ -1,0 +1,142 @@
+:root {
+  --blue: rgb(24, 119, 242);
+  --green: rgb(66, 183, 42);
+  --blueHover: #166fe5;
+  --greenHover: #36a420;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #f0f2f5;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #1c1e21;
+}
+
+.button {
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  line-height: 48px;
+  padding: 0 16px;
+  color: white;
+  font-weight: bold;
+  transition: 0.2s background-color;
+  cursor: pointer;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.formContainer-card {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 20px 0 28px;
+  width: 396px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 27px;
+}
+
+.formContainer-card-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.formContainer-card-form-email,
+.formContainer-card-form-password {
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 330px;
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+  color: #1d2129;
+  height: 22px;
+}
+
+.formContainer-card-form-email::placeholder,
+.formContainer-card-form-password::placeholder {
+  color: #747a88;
+}
+
+.formContainer-card-form-email:focus,
+.formContainer-card-form-password:focus {
+  outline: none;
+  border: 1.7px solid var(--blue);
+  box-shadow: rgba(119, 197, 253, 0.5) 0px -1px 4px;
+}
+
+.formContainer-card-form-submit {
+  background-color: var(--blue);
+  font-size: 20px;
+  width: 364px;
+}
+.formContainer-card-form-submit:hover {
+  background-color: var(--blueHover);
+}
+.formContainer-card-form-submit:active {
+  box-shadow: rgb(28, 117, 180) 0px 0px 5px;
+}
+
+.formContainer-card-form-forgotPassword {
+  text-decoration: none;
+  color: #1877f2;
+  font-size: 14px;
+  font-weight: 500;
+}
+.formContainer-card-form-forgotPassword:hover {
+  text-decoration: underline;
+}
+
+.formContainer-card-hr {
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid #dadde1;
+}
+
+.formContainer-card-button {
+  background-color: var(--green);
+  font-size: 17px;
+}
+.formContainer-card-button:hover {
+  background-color: var(--greenHover);
+}
+.formContainer-card-button:active {
+  box-shadow: rgb(28, 117, 180) 0px 0px 5px;
+  background-color: rgb(44, 146, 24);
+}
+
+.formContainer-bottomText {
+  color: #1c1e21;
+  font-size: 14px;
+}
+
+.formContainer-bottomText-a {
+  text-decoration: none;
+}
+.formContainer-bottomText-a:hover {
+  text-decoration: underline;
+}
+.formContainer-bottomText-a:visited {
+  color: #1c1e21;
+}
