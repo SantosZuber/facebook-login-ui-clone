@@ -22,7 +22,7 @@ export function Form() {
             Forgot password?
           </a>
         </form>
-        <hr className="formContainer-card-hr" />
+        <hr className="formContainer-card-hr hr" />
         <button className="formContainer-card-button button">
           Create new account
         </button>
