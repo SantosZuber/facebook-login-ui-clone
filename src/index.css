@@ -209,13 +209,16 @@ body {
   font-size: 12px;
 }
 .App-footer-div {
-  width: 980px;
+  max-width: 980px;
   height: 100%;
+  margin-left: 37px;
+  margin-right: 37px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 10px;
+  padding-top: 26px;
 }
 
 .App-footer-div-hr {
@@ -224,9 +227,11 @@ body {
 
 .App-footer-div-languages {
   display: flex;
-  width: 100%;
+  max-width: 980px;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: flex-start;
+  width: 100%;
   align-items: center;
   gap: 10px;
 }
@@ -242,7 +247,7 @@ body {
 
 .App-footer-div-links {
   display: flex;
-  width: 100%;
+  max-width: 980px;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
@@ -261,6 +266,8 @@ body {
 .App-footer-div-metaText {
   align-self: flex-start;
   padding-top: 14px;
+  font-size: 11px;
+  padding-bottom: 17px;
 }
 
 .App-footer-div-languages-button {
@@ -283,4 +290,25 @@ body {
 .App-footer-div-languages-button:active {
   box-shadow: rgb(28, 117, 180) 0px 0px 5px;
   background-color: rgb(221, 223, 226);
+}
+
+@media only screen and (max-width: 1000px) {
+  .App-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+  }
+
+  .App-section-div {
+    justify-content: center;
+    align-items: center;
+    padding-right: 0px;
+    box-sizing: border-box;
+  }
+  .App-section-div-text {
+    text-align: center;
+    font-size: 24px;
+    max-width: 400px;
+  }
 }
